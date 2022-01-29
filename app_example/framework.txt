@@ -1,0 +1,8 @@
+framework란 무엇인가
+
+frame + work : 작업을 하는데에 있어서에 틀이다.
+
+Application 을 이용해서 MP3 주소록 일기장을 만들면
+우리는 Application Framework를 만든 것이다라고 할 수 있다.
+
+웹서버를 만들겠다 -> Django나 Flask라는 프레임   -python     java: springboot     안드로이드 앱을 만들겠다? -> 코틀린 플러터 리액트 ...

@@ -1,0 +1,9 @@
+파일 기반의 임베디드 데이터베이스
+- 독립적인 DBMS 서버 대신 라이브러리 형태(모듈)로 프로그램에 포함되어 운영
+- IoT같은 가벼운 곳에서 쓸 수 있다.
+
+; con = sqlite3.connect(DB파일) -> DB파일 없으면 생성 있으면 열기 -> con은 DB접속관리
+; cursor = con.cursor() -> SQL 실행
+
+; cursor.close()
+; con.close()
