@@ -60,7 +60,7 @@ class Heater():
         
         
 def main():
-    # 1초 간격으로 온도를 측정해서
+    # 1초 간격으로 온도(랜덤)으로 측정해서
     # 장소, 측정시간, 온도를 출력하세요.
     heater = Heater('안방')
     heater.set_std_temp(15)

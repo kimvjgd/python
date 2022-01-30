@@ -23,11 +23,12 @@ class Date:
         if 1 <= month <= 12:                # 15는 조건에 안맞아서 업데이트가 안된다.
             self.inner_month = month
             
-            
+############################################################################################################################            
     # property 만드는 번거로움을 없애기 위해
     # 방법 2
     def getmonth(self):
         return self.__month
+    
     def setmonth(self, month):
         if 1 <= month <= 12:
             self.__month = month

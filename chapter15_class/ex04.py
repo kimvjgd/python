@@ -22,14 +22,14 @@
 class Stack:
     def __init__(self) -> None:
         self.data = []
-    
+
     def push(self, value):
         self.data.append(value)
 
     def pop(self):
         assert len(self.data) > 0, '스택이 비었습니다.'
         return self.data.pop()
-    
+
     def read_top(self):
         assert len(self.data) > 0, '스택이 비었습니다.'
         top = self.data[-1]
