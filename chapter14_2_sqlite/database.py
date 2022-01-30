@@ -1,3 +1,4 @@
+# conda activate iot-db-test     이 가상환경에 들어가서 하자 여기에 깔았다.
 # pip install mysqlclient 하고
 # import MySQLdb              # for connecting with mariaDB
 import mysql.connector

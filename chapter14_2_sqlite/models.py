@@ -5,7 +5,7 @@ from database import con
 # 클래스명 관례 준수
 # 테이블명
 @dataclass
-class TblAddr:
+class   TblAddr:
     name : str
     phone : str
     addr : str

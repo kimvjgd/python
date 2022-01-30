@@ -28,7 +28,6 @@ def main():
         cursor.execute(sql)
 
     
-    
     con.commit()                # 메모리 반영
     
     cursor.close()

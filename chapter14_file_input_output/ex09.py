@@ -10,10 +10,6 @@ def main():
     content = ','.join(content)
 
     
-
-    
-    
-    
     # 리스트를 내용을 data.txt 파일로 저장하세요.
     
     try:
@@ -22,5 +18,5 @@ def main():
     except Exception as e:
         print(e)
 
-
+    
 main()
