@@ -4,20 +4,20 @@
 # 지역함수를 리턴한 경우 -> 함수 밖에서도 사용 가능하다.
 
 
-# def calcsum(n):
-#     def add(a, b):
-#         return a+b
+def calcsum(n):
+    def add(a, b):
+        return a+b
 
-#     total = 0
-#     for i in range(n+1):
-#         total = add(total, i)
-#     return total
+    total = 0
+    for i in range(n+1):
+        total = add(total, i)
+    return total
 
-# def main():
-#     print('~10 = ', calcsum(10))
-#     # print(add(10, 20))            # 지역 함수는 함수 밖에서 사용 불가 
+def main():
+    print('~10 = ', calcsum(10))
+    # print(add(10, 20))            # 지역 함수는 함수 밖에서 사용 불가 
 
-# main()
+main()
 
 def makeHello(message):
     def hello(name):

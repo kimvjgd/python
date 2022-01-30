@@ -26,6 +26,6 @@ def main():
     for k in solarterm:                         # 두번째 돌릴때 아무 데이터도 나오지 않는다.    -> Seq class에서 __iter__에서 index초기화 해줘야한다.
         print(k, end=',')
     print()
-    print('-'*60) 
+    print('-'*60)
         
 main()

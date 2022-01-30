@@ -15,11 +15,11 @@ class NameCard:
     
     def __setitem__(self, key, value):
         return setattr(self, key, value)
-    
+
 
 def main():
     card = NameCard('김동현', '010-5471-0000')
-    print(card)
+    print(card)             # 여기의 print는 그냥 python의 print
     
     name = getattr(card, 'name')        # attribute가 객체의 속성       # name = card.name과 같은 동작이다.
     print(name)
